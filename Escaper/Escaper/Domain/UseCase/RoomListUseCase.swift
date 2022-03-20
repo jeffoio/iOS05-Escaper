@@ -10,7 +10,7 @@ import CoreLocation
 
 protocol RoomListUseCaseInterface {
     func query(district: District, genre: Genre, completion: @escaping (Result<[Room], Error>) -> Void)
-    func fetch(name: String, completion: @escaping (Result<[Room], Error>) -> Void)
+func fetch(name: String, completion: @escaping (Result<[Room], Error>) -> Void)
 }
 
 protocol StoreDetailUseCaseInterface {

@@ -15,6 +15,7 @@ final class SearchRoomViewController: DefaultDIViewController<SearchRoomViewMode
     weak var roomTransferDelegate: RoomInformationTransferable?
 
     private var searchRequestWorkItem: DispatchWorkItem?
+
     private var dataSource: UITableViewDiffableDataSource<Section, Room>?
     private let containerView: UIView = {
         let view = UIView()
